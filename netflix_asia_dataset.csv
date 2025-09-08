@@ -1,0 +1,801 @@
+User_ID,Country,Rating,Review_Count,Last_Watched_Days,Total_Watch_Minutes,Subscription_Length_Months,Monthly_Price,Recency,Frequency,Monetary,CLV,Churn,Review_Text
+1,Thailand,1,3,70,6689,25,8.99,70,3,224.75,224.75,0,I love the UI
+2,South Korea,3,6,196,471,29,8.99,196,6,260.71,260.71,0,Too expensive
+3,Singapore,5,5,269,6070,7,12.99,269,5,90.93,90.93,0,Great content and quality!
+4,Thailand,4,5,49,5955,3,15.99,49,5,47.97,47.97,1,Too expensive
+5,Japan,1,54,316,7388,20,8.99,316,54,179.8,179.8,1,I love the UI
+6,Singapore,4,47,130,4658,20,8.99,130,47,179.8,179.8,0,Great content and quality!
+7,Singapore,1,87,5,6400,30,12.99,5,87,389.7,389.7,0,Horrible streaming quality
+8,Thailand,1,49,27,9558,35,12.99,27,49,454.65000000000003,454.65000000000003,1,Great content and quality!
+9,Indonesia,1,9,160,978,35,15.99,160,9,559.65,559.65,1,Horrible streaming quality
+10,Japan,5,99,149,8209,27,12.99,149,99,350.73,350.73,0,Great content and quality!
+11,Thailand,2,20,264,6145,26,15.99,264,20,415.74,415.74,0,I love the UI
+12,Japan,4,61,230,489,14,8.99,230,61,125.86,125.86,0,I love the UI
+13,Japan,5,35,200,7598,17,8.99,200,35,152.83,152.83,1,Great content and quality!
+14,Singapore,5,50,50,4676,18,15.99,50,50,287.82,287.82,0,Too expensive
+15,South Korea,5,82,67,422,29,12.99,67,82,376.71,376.71,0,I love the UI
+16,Japan,5,62,300,1817,20,15.99,300,62,319.8,319.8,0,Horrible streaming quality
+17,Malaysia,5,17,58,7404,27,12.99,58,17,350.73,350.73,1,Horrible streaming quality
+18,Singapore,3,88,259,1168,18,8.99,259,88,161.82,161.82,0,Good for families
+19,Indonesia,4,3,342,4771,4,12.99,342,3,51.96,51.96,0,Limited Asian shows
+20,South Korea,5,32,326,7448,1,15.99,326,32,15.99,15.99,0,Limited Asian shows
+21,Malaysia,4,99,130,6392,1,15.99,130,99,15.99,15.99,0,Limited Asian shows
+22,Malaysia,3,13,215,2484,26,8.99,215,13,233.74,233.74,0,Horrible streaming quality
+23,Indonesia,3,89,172,9688,20,12.99,172,89,259.8,259.8,1,Good for families
+24,South Korea,4,73,258,3704,23,12.99,258,73,298.77,298.77,1,Limited Asian shows
+25,Singapore,1,68,102,1407,10,12.99,102,68,129.9,129.9,1,Limited Asian shows
+26,India,2,14,209,6731,11,8.99,209,14,98.89,98.89,1,Great content and quality!
+27,South Korea,1,98,291,2627,5,12.99,291,98,64.95,64.95,0,Great content and quality!
+28,Indonesia,1,11,354,171,1,15.99,354,11,15.99,15.99,1,Great content and quality!
+29,Malaysia,1,56,286,2689,17,12.99,286,56,220.83,220.83,0,Too expensive
+30,Singapore,5,67,116,4626,22,8.99,116,67,197.78,197.78,0,Limited Asian shows
+31,South Korea,3,92,264,9061,34,12.99,264,92,441.66,441.66,1,Too expensive
+32,India,1,29,150,5691,29,12.99,150,29,376.71,376.71,0,Good for families
+33,India,3,9,300,6172,4,15.99,300,9,63.96,63.96,0,Horrible streaming quality
+34,Japan,4,67,36,5656,5,12.99,36,67,64.95,64.95,0,Limited Asian shows
+35,Japan,2,25,333,8817,11,15.99,333,25,175.89000000000001,175.89000000000001,0,Horrible streaming quality
+36,Thailand,4,98,287,8502,21,15.99,287,98,335.79,335.79,0,Great content and quality!
+37,Indonesia,4,76,303,453,35,8.99,303,76,314.65000000000003,314.65000000000003,1,Limited Asian shows
+38,South Korea,5,42,311,7029,12,15.99,311,42,191.88,191.88,1,I love the UI
+39,South Korea,2,9,208,4279,26,15.99,208,9,415.74,415.74,0,Too expensive
+40,Thailand,4,79,106,1780,19,8.99,106,79,170.81,170.81,0,Too expensive
+41,Malaysia,4,40,158,4787,7,15.99,158,40,111.93,111.93,0,Limited Asian shows
+42,Malaysia,2,25,121,1997,7,8.99,121,25,62.93,62.93,1,Great content and quality!
+43,Thailand,2,5,55,4118,26,12.99,55,5,337.74,337.74,0,Too expensive
+44,Malaysia,4,11,12,4208,5,8.99,12,11,44.95,44.95,0,Great content and quality!
+45,Japan,2,59,145,7819,21,15.99,145,59,335.79,335.79,0,Good for families
+46,South Korea,4,98,136,2976,14,8.99,136,98,125.86,125.86,0,Horrible streaming quality
+47,Thailand,4,88,3,9671,4,15.99,3,88,63.96,63.96,0,I love the UI
+48,South Korea,5,79,144,5424,23,12.99,144,79,298.77,298.77,1,Horrible streaming quality
+49,India,1,38,30,7910,20,8.99,30,38,179.8,179.8,0,Horrible streaming quality
+50,Japan,4,72,237,5105,15,12.99,237,72,194.85,194.85,0,Good for families
+51,Singapore,3,5,279,7260,29,15.99,279,5,463.71,463.71,0,Too expensive
+52,Japan,1,48,348,1561,8,15.99,348,48,127.92,127.92,0,I love the UI
+53,Thailand,1,90,115,3020,19,12.99,115,90,246.81,246.81,0,Too expensive
+54,Singapore,1,18,104,7185,28,8.99,104,18,251.72,251.72,0,Limited Asian shows
+55,India,5,70,118,4523,27,8.99,118,70,242.73000000000002,242.73000000000002,0,Horrible streaming quality
+56,Thailand,4,37,5,9365,4,15.99,5,37,63.96,63.96,0,Limited Asian shows
+57,Indonesia,5,60,360,963,15,12.99,360,60,194.85,194.85,1,Great content and quality!
+58,South Korea,4,48,248,1490,35,12.99,248,48,454.65000000000003,454.65000000000003,0,Horrible streaming quality
+59,India,5,77,364,2753,1,8.99,364,77,8.99,8.99,1,Too expensive
+60,South Korea,5,28,321,315,3,8.99,321,28,26.97,26.97,0,Horrible streaming quality
+61,Malaysia,3,69,121,294,24,8.99,121,69,215.76,215.76,1,Great content and quality!
+62,Indonesia,5,77,286,6846,27,12.99,286,77,350.73,350.73,0,Good for families
+63,Indonesia,2,81,149,1792,34,8.99,149,81,305.66,305.66,1,Limited Asian shows
+64,India,3,40,84,70,29,8.99,84,40,260.71,260.71,0,Limited Asian shows
+65,Indonesia,5,45,231,5857,24,15.99,231,45,383.76,383.76,0,Too expensive
+66,Singapore,1,96,288,8289,24,8.99,288,96,215.76,215.76,1,Horrible streaming quality
+67,Indonesia,2,62,161,1017,4,8.99,161,62,35.96,35.96,0,Too expensive
+68,South Korea,2,93,272,7834,3,12.99,272,93,38.97,38.97,0,Good for families
+69,South Korea,2,58,38,7819,34,12.99,38,58,441.66,441.66,0,Horrible streaming quality
+70,Thailand,3,67,226,5747,23,15.99,226,67,367.77,367.77,0,Horrible streaming quality
+71,South Korea,5,56,142,3228,23,8.99,142,56,206.77,206.77,0,Too expensive
+72,Thailand,5,40,292,5404,5,15.99,292,40,79.95,79.95,0,Too expensive
+73,South Korea,1,98,151,4820,31,12.99,151,98,402.69,402.69,0,Great content and quality!
+74,Singapore,1,40,114,7213,6,15.99,114,40,95.94,95.94,1,Good for families
+75,Thailand,2,91,237,2554,10,12.99,237,91,129.9,129.9,0,Great content and quality!
+76,Japan,1,77,66,9307,7,15.99,66,77,111.93,111.93,1,Limited Asian shows
+77,Malaysia,3,33,361,2509,21,15.99,361,33,335.79,335.79,1,Horrible streaming quality
+78,India,5,6,341,9915,20,8.99,341,6,179.8,179.8,0,Too expensive
+79,South Korea,2,88,258,5184,3,15.99,258,88,47.97,47.97,0,Horrible streaming quality
+80,Indonesia,1,19,249,808,22,8.99,249,19,197.78,197.78,0,Horrible streaming quality
+81,South Korea,3,80,331,9807,4,8.99,331,80,35.96,35.96,0,I love the UI
+82,Indonesia,3,40,323,1522,28,8.99,323,40,251.72,251.72,1,Limited Asian shows
+83,Malaysia,1,92,180,690,12,8.99,180,92,107.88,107.88,0,I love the UI
+84,Malaysia,5,97,190,1378,5,15.99,190,97,79.95,79.95,0,Horrible streaming quality
+85,Malaysia,1,59,154,9521,13,12.99,154,59,168.87,168.87,0,Too expensive
+86,Indonesia,2,59,196,7881,23,12.99,196,59,298.77,298.77,0,Horrible streaming quality
+87,South Korea,1,48,311,7186,30,12.99,311,48,389.7,389.7,0,Limited Asian shows
+88,Malaysia,3,41,262,2074,25,15.99,262,41,399.75,399.75,0,I love the UI
+89,Singapore,1,13,143,7398,27,8.99,143,13,242.73000000000002,242.73000000000002,1,Too expensive
+90,Thailand,5,45,342,3546,14,12.99,342,45,181.86,181.86,0,Horrible streaming quality
+91,Indonesia,4,89,316,9280,16,15.99,316,89,255.84,255.84,0,Good for families
+92,Indonesia,1,53,101,9198,22,8.99,101,53,197.78,197.78,1,Limited Asian shows
+93,South Korea,5,42,244,4607,21,12.99,244,42,272.79,272.79,0,Limited Asian shows
+94,Indonesia,5,63,12,757,21,8.99,12,63,188.79,188.79,1,Good for families
+95,Indonesia,3,27,239,7498,8,12.99,239,27,103.92,103.92,1,Horrible streaming quality
+96,Malaysia,5,38,49,372,16,12.99,49,38,207.84,207.84,0,Limited Asian shows
+97,South Korea,5,60,42,1477,31,12.99,42,60,402.69,402.69,1,Too expensive
+98,Malaysia,5,7,166,6611,10,8.99,166,7,89.9,89.9,0,Horrible streaming quality
+99,Thailand,5,5,82,6347,32,15.99,82,5,511.68,511.68,1,Horrible streaming quality
+100,Thailand,2,45,291,556,34,8.99,291,45,305.66,305.66,0,I love the UI
+101,Malaysia,2,58,158,6778,9,12.99,158,58,116.91,116.91,0,Limited Asian shows
+102,Thailand,3,31,216,435,17,8.99,216,31,152.83,152.83,1,Limited Asian shows
+103,South Korea,1,23,158,8016,11,15.99,158,23,175.89000000000001,175.89000000000001,1,Good for families
+104,India,5,42,134,9795,32,8.99,134,42,287.68,287.68,1,I love the UI
+105,Malaysia,1,10,67,3770,10,15.99,67,10,159.9,159.9,0,I love the UI
+106,Singapore,1,32,336,1876,22,15.99,336,32,351.78000000000003,351.78000000000003,1,Limited Asian shows
+107,Singapore,3,53,7,1508,17,8.99,7,53,152.83,152.83,0,Horrible streaming quality
+108,Indonesia,5,30,14,801,4,12.99,14,30,51.96,51.96,1,I love the UI
+109,Thailand,5,39,73,5555,25,15.99,73,39,399.75,399.75,0,Good for families
+110,Singapore,4,31,163,8800,21,8.99,163,31,188.79,188.79,0,I love the UI
+111,Indonesia,1,82,66,223,1,15.99,66,82,15.99,15.99,0,Good for families
+112,India,1,2,347,2037,25,12.99,347,2,324.75,324.75,0,I love the UI
+113,South Korea,2,78,130,1215,17,8.99,130,78,152.83,152.83,1,Good for families
+114,South Korea,4,77,206,2424,24,8.99,206,77,215.76,215.76,0,I love the UI
+115,South Korea,2,93,276,9332,2,8.99,276,93,17.98,17.98,0,I love the UI
+116,Singapore,2,12,256,4035,15,12.99,256,12,194.85,194.85,0,Too expensive
+117,India,2,39,266,7459,32,15.99,266,39,511.68,511.68,1,Good for families
+118,Singapore,3,66,25,2291,6,8.99,25,66,53.94,53.94,0,Good for families
+119,Thailand,3,96,281,3766,1,15.99,281,96,15.99,15.99,0,Good for families
+120,Singapore,2,13,253,6746,23,15.99,253,13,367.77,367.77,0,Great content and quality!
+121,India,4,46,310,4905,17,12.99,310,46,220.83,220.83,0,I love the UI
+122,India,1,27,289,8951,34,8.99,289,27,305.66,305.66,0,Good for families
+123,Thailand,4,17,164,4408,29,15.99,164,17,463.71,463.71,0,Limited Asian shows
+124,India,5,95,95,7845,9,8.99,95,95,80.91,80.91,0,Great content and quality!
+125,India,3,98,270,3481,13,8.99,270,98,116.87,116.87,1,Too expensive
+126,South Korea,1,60,321,7646,6,12.99,321,60,77.94,77.94,1,Good for families
+127,Thailand,1,64,110,9866,6,8.99,110,64,53.94,53.94,0,Good for families
+128,Japan,5,88,336,2830,20,8.99,336,88,179.8,179.8,1,Great content and quality!
+129,Japan,5,35,310,8363,3,15.99,310,35,47.97,47.97,0,I love the UI
+130,India,2,70,238,5440,17,12.99,238,70,220.83,220.83,0,Limited Asian shows
+131,Japan,3,83,25,1485,12,8.99,25,83,107.88,107.88,0,Too expensive
+132,Japan,3,30,141,6922,1,15.99,141,30,15.99,15.99,0,Good for families
+133,India,4,71,117,5838,17,12.99,117,71,220.83,220.83,0,I love the UI
+134,Japan,2,74,25,6826,3,12.99,25,74,38.97,38.97,0,Limited Asian shows
+135,Singapore,2,96,79,4826,26,15.99,79,96,415.74,415.74,0,Limited Asian shows
+136,Indonesia,2,98,68,5123,15,15.99,68,98,239.85,239.85,0,Too expensive
+137,Thailand,2,63,173,1355,32,15.99,173,63,511.68,511.68,0,Horrible streaming quality
+138,Indonesia,3,28,12,5006,32,15.99,12,28,511.68,511.68,0,Limited Asian shows
+139,India,3,60,288,9435,4,15.99,288,60,63.96,63.96,0,Horrible streaming quality
+140,South Korea,2,79,128,1189,18,8.99,128,79,161.82,161.82,0,Limited Asian shows
+141,Thailand,4,94,96,4680,19,8.99,96,94,170.81,170.81,0,Too expensive
+142,India,1,37,92,5017,35,12.99,92,37,454.65000000000003,454.65000000000003,0,Great content and quality!
+143,South Korea,1,93,141,4727,14,8.99,141,93,125.86,125.86,1,Too expensive
+144,Indonesia,4,22,31,370,33,8.99,31,22,296.67,296.67,0,Too expensive
+145,India,2,68,334,3858,14,8.99,334,68,125.86,125.86,0,Great content and quality!
+146,Thailand,3,20,20,1998,34,15.99,20,20,543.66,543.66,0,Great content and quality!
+147,Thailand,1,96,146,733,4,12.99,146,96,51.96,51.96,0,I love the UI
+148,Malaysia,5,68,316,5512,24,12.99,316,68,311.76,311.76,0,Limited Asian shows
+149,Singapore,5,91,160,6406,29,12.99,160,91,376.71,376.71,0,I love the UI
+150,Japan,4,64,349,1830,19,12.99,349,64,246.81,246.81,0,Great content and quality!
+151,South Korea,2,17,43,5493,6,8.99,43,17,53.94,53.94,0,Horrible streaming quality
+152,Malaysia,1,12,254,4942,33,8.99,254,12,296.67,296.67,0,Horrible streaming quality
+153,Japan,2,22,130,4678,19,15.99,130,22,303.81,303.81,0,Too expensive
+154,Japan,1,17,60,885,1,12.99,60,17,12.99,12.99,0,Good for families
+155,India,4,10,151,2896,5,8.99,151,10,44.95,44.95,0,Too expensive
+156,Japan,4,65,287,212,27,8.99,287,65,242.73000000000002,242.73000000000002,0,Too expensive
+157,Singapore,5,22,5,3142,16,15.99,5,22,255.84,255.84,0,Good for families
+158,Thailand,2,90,266,5700,6,15.99,266,90,95.94,95.94,0,Limited Asian shows
+159,Malaysia,5,82,345,4522,13,15.99,345,82,207.87,207.87,0,Great content and quality!
+160,Japan,2,50,130,5853,35,8.99,130,50,314.65000000000003,314.65000000000003,0,Horrible streaming quality
+161,India,5,14,267,1547,19,8.99,267,14,170.81,170.81,0,Too expensive
+162,Singapore,3,64,178,5032,12,15.99,178,64,191.88,191.88,1,Good for families
+163,Indonesia,3,47,253,1386,16,12.99,253,47,207.84,207.84,0,I love the UI
+164,Thailand,3,29,56,3659,10,15.99,56,29,159.9,159.9,1,Too expensive
+165,Thailand,3,76,83,3658,25,15.99,83,76,399.75,399.75,0,Horrible streaming quality
+166,Malaysia,1,36,99,8240,20,15.99,99,36,319.8,319.8,0,Great content and quality!
+167,Thailand,3,99,149,6162,31,15.99,149,99,495.69,495.69,0,Too expensive
+168,Japan,4,52,329,9354,4,8.99,329,52,35.96,35.96,0,Too expensive
+169,India,4,76,156,6618,23,12.99,156,76,298.77,298.77,0,Limited Asian shows
+170,Thailand,1,7,190,3341,2,15.99,190,7,31.98,31.98,0,Good for families
+171,Thailand,3,29,263,6078,22,12.99,263,29,285.78000000000003,285.78000000000003,0,I love the UI
+172,Indonesia,3,11,80,6276,8,12.99,80,11,103.92,103.92,0,I love the UI
+173,Indonesia,3,33,252,1017,7,12.99,252,33,90.93,90.93,1,Great content and quality!
+174,South Korea,5,6,97,3351,14,15.99,97,6,223.86,223.86,1,Horrible streaming quality
+175,Singapore,2,79,260,4645,3,8.99,260,79,26.97,26.97,0,Great content and quality!
+176,Japan,5,32,260,8395,16,15.99,260,32,255.84,255.84,0,Too expensive
+177,Thailand,2,51,103,3771,19,12.99,103,51,246.81,246.81,0,Too expensive
+178,Thailand,3,75,40,3082,18,12.99,40,75,233.82,233.82,0,I love the UI
+179,India,3,58,273,6604,16,8.99,273,58,143.84,143.84,0,Horrible streaming quality
+180,South Korea,5,87,101,756,8,15.99,101,87,127.92,127.92,1,Good for families
+181,Singapore,5,26,359,3790,33,12.99,359,26,428.67,428.67,0,Horrible streaming quality
+182,South Korea,2,98,308,5836,12,8.99,308,98,107.88,107.88,0,Too expensive
+183,Malaysia,4,46,221,1905,11,12.99,221,46,142.89000000000001,142.89000000000001,0,Good for families
+184,Singapore,2,98,308,7023,5,8.99,308,98,44.95,44.95,1,Horrible streaming quality
+185,Thailand,5,29,124,4063,27,8.99,124,29,242.73000000000002,242.73000000000002,0,Horrible streaming quality
+186,Thailand,5,4,231,5473,12,15.99,231,4,191.88,191.88,0,Good for families
+187,Singapore,1,81,178,1019,17,12.99,178,81,220.83,220.83,1,Too expensive
+188,Thailand,5,99,63,3774,6,15.99,63,99,95.94,95.94,0,Horrible streaming quality
+189,Japan,1,13,116,8641,33,12.99,116,13,428.67,428.67,1,Good for families
+190,Singapore,4,39,191,623,5,15.99,191,39,79.95,79.95,0,Limited Asian shows
+191,South Korea,2,15,62,1804,28,12.99,62,15,363.72,363.72,1,Limited Asian shows
+192,Singapore,2,29,256,965,14,15.99,256,29,223.86,223.86,0,Too expensive
+193,Thailand,1,29,7,3838,5,8.99,7,29,44.95,44.95,0,Good for families
+194,Japan,2,75,155,361,33,12.99,155,75,428.67,428.67,1,Limited Asian shows
+195,Japan,5,32,92,7952,19,12.99,92,32,246.81,246.81,0,Good for families
+196,Malaysia,3,2,14,2732,22,8.99,14,2,197.78,197.78,0,Horrible streaming quality
+197,South Korea,1,47,229,5919,5,15.99,229,47,79.95,79.95,0,Too expensive
+198,Indonesia,2,78,86,5084,2,12.99,86,78,25.98,25.98,0,Limited Asian shows
+199,Indonesia,1,84,133,3898,30,12.99,133,84,389.7,389.7,0,Horrible streaming quality
+200,Singapore,1,22,183,4230,4,15.99,183,22,63.96,63.96,0,Great content and quality!
+201,Malaysia,3,75,62,231,33,8.99,62,75,296.67,296.67,0,Great content and quality!
+202,India,5,27,219,2527,13,15.99,219,27,207.87,207.87,0,Too expensive
+203,Singapore,1,67,246,1872,20,15.99,246,67,319.8,319.8,0,Limited Asian shows
+204,Malaysia,2,81,230,9131,7,15.99,230,81,111.93,111.93,0,Limited Asian shows
+205,South Korea,4,56,79,4688,15,12.99,79,56,194.85,194.85,1,Limited Asian shows
+206,South Korea,1,92,149,7574,23,8.99,149,92,206.77,206.77,1,Good for families
+207,South Korea,1,93,138,7748,14,8.99,138,93,125.86,125.86,1,Horrible streaming quality
+208,South Korea,3,21,314,800,23,15.99,314,21,367.77,367.77,0,Limited Asian shows
+209,South Korea,5,47,65,3185,19,12.99,65,47,246.81,246.81,0,Horrible streaming quality
+210,Malaysia,4,80,13,1658,29,15.99,13,80,463.71,463.71,0,Too expensive
+211,Malaysia,2,59,213,416,20,12.99,213,59,259.8,259.8,0,Limited Asian shows
+212,Japan,4,84,242,6061,29,12.99,242,84,376.71,376.71,0,Too expensive
+213,Indonesia,2,6,213,6469,24,12.99,213,6,311.76,311.76,0,Limited Asian shows
+214,Thailand,5,19,181,6431,18,12.99,181,19,233.82,233.82,0,Great content and quality!
+215,South Korea,2,57,338,4038,10,8.99,338,57,89.9,89.9,1,I love the UI
+216,India,3,69,173,2496,8,12.99,173,69,103.92,103.92,0,Too expensive
+217,Thailand,3,3,160,2312,26,12.99,160,3,337.74,337.74,0,Limited Asian shows
+218,Malaysia,3,1,164,1886,29,15.99,164,1,463.71,463.71,0,I love the UI
+219,India,3,58,188,8010,10,15.99,188,58,159.9,159.9,0,Too expensive
+220,India,4,38,191,2028,17,8.99,191,38,152.83,152.83,1,Good for families
+221,India,5,15,308,5506,2,15.99,308,15,31.98,31.98,0,Limited Asian shows
+222,Japan,2,34,256,9458,6,12.99,256,34,77.94,77.94,0,Good for families
+223,Malaysia,2,61,183,4699,5,15.99,183,61,79.95,79.95,0,Great content and quality!
+224,India,3,35,117,9372,28,8.99,117,35,251.72,251.72,0,Limited Asian shows
+225,South Korea,3,64,282,4348,5,15.99,282,64,79.95,79.95,0,Great content and quality!
+226,Singapore,1,25,196,7094,18,15.99,196,25,287.82,287.82,1,I love the UI
+227,India,5,24,34,7476,26,8.99,34,24,233.74,233.74,1,Too expensive
+228,Japan,4,12,52,1461,20,8.99,52,12,179.8,179.8,1,Horrible streaming quality
+229,Thailand,2,18,112,5654,27,12.99,112,18,350.73,350.73,0,Great content and quality!
+230,Malaysia,1,15,252,7491,12,15.99,252,15,191.88,191.88,1,Horrible streaming quality
+231,Japan,1,80,82,1849,7,12.99,82,80,90.93,90.93,0,Horrible streaming quality
+232,India,2,27,232,1160,3,15.99,232,27,47.97,47.97,0,Too expensive
+233,Malaysia,4,72,227,6593,10,15.99,227,72,159.9,159.9,0,I love the UI
+234,Singapore,1,60,233,2688,34,12.99,233,60,441.66,441.66,0,Too expensive
+235,India,1,46,221,3530,25,15.99,221,46,399.75,399.75,0,Limited Asian shows
+236,Japan,5,89,42,8596,35,15.99,42,89,559.65,559.65,0,Great content and quality!
+237,Indonesia,4,17,21,2150,16,15.99,21,17,255.84,255.84,0,Horrible streaming quality
+238,South Korea,1,93,42,4050,2,8.99,42,93,17.98,17.98,0,Too expensive
+239,Thailand,4,53,113,3289,24,12.99,113,53,311.76,311.76,0,Too expensive
+240,Japan,2,8,105,1853,10,8.99,105,8,89.9,89.9,1,Too expensive
+241,Malaysia,3,79,192,1504,22,12.99,192,79,285.78000000000003,285.78000000000003,1,Great content and quality!
+242,India,1,27,17,2272,26,12.99,17,27,337.74,337.74,1,I love the UI
+243,South Korea,5,46,120,3273,27,15.99,120,46,431.73,431.73,0,Too expensive
+244,India,2,50,129,7020,29,12.99,129,50,376.71,376.71,0,Great content and quality!
+245,Malaysia,4,71,130,5190,20,8.99,130,71,179.8,179.8,0,Horrible streaming quality
+246,India,2,3,60,3164,27,8.99,60,3,242.73000000000002,242.73000000000002,0,Limited Asian shows
+247,Indonesia,1,93,48,2100,20,8.99,48,93,179.8,179.8,0,Good for families
+248,South Korea,4,64,29,389,19,12.99,29,64,246.81,246.81,0,Great content and quality!
+249,South Korea,3,44,97,1171,20,8.99,97,44,179.8,179.8,0,Good for families
+250,Malaysia,2,53,10,1665,35,12.99,10,53,454.65000000000003,454.65000000000003,1,Too expensive
+251,Thailand,1,24,242,4030,2,8.99,242,24,17.98,17.98,0,Too expensive
+252,Indonesia,5,60,314,3391,30,8.99,314,60,269.7,269.7,0,Great content and quality!
+253,Japan,4,3,232,6613,34,12.99,232,3,441.66,441.66,0,Good for families
+254,India,2,20,277,7865,22,8.99,277,20,197.78,197.78,1,Too expensive
+255,Singapore,2,46,284,36,3,15.99,284,46,47.97,47.97,1,Horrible streaming quality
+256,India,3,15,203,3297,6,12.99,203,15,77.94,77.94,1,I love the UI
+257,India,3,25,247,6594,15,12.99,247,25,194.85,194.85,1,I love the UI
+258,Japan,5,94,290,9813,27,12.99,290,94,350.73,350.73,0,Too expensive
+259,India,5,78,264,4958,10,15.99,264,78,159.9,159.9,0,Good for families
+260,Indonesia,1,71,214,2636,9,12.99,214,71,116.91,116.91,0,Limited Asian shows
+261,Indonesia,1,17,200,5936,33,8.99,200,17,296.67,296.67,0,Too expensive
+262,South Korea,5,84,79,3303,32,8.99,79,84,287.68,287.68,0,Limited Asian shows
+263,Malaysia,5,9,343,7641,6,8.99,343,9,53.94,53.94,0,Limited Asian shows
+264,Thailand,4,38,344,943,2,12.99,344,38,25.98,25.98,1,Good for families
+265,Singapore,3,48,173,2041,29,8.99,173,48,260.71,260.71,1,Limited Asian shows
+266,India,1,60,69,1472,4,12.99,69,60,51.96,51.96,1,Horrible streaming quality
+267,India,3,63,87,5576,1,8.99,87,63,8.99,8.99,1,Good for families
+268,Japan,3,86,101,1859,19,15.99,101,86,303.81,303.81,0,Too expensive
+269,Malaysia,5,2,8,8797,26,15.99,8,2,415.74,415.74,0,Horrible streaming quality
+270,Indonesia,4,88,333,6498,25,15.99,333,88,399.75,399.75,0,Great content and quality!
+271,Singapore,2,72,200,959,10,15.99,200,72,159.9,159.9,0,I love the UI
+272,South Korea,4,11,87,3729,15,12.99,87,11,194.85,194.85,0,Too expensive
+273,Indonesia,4,64,43,9685,22,8.99,43,64,197.78,197.78,0,Too expensive
+274,Malaysia,3,77,109,1084,21,15.99,109,77,335.79,335.79,1,Too expensive
+275,Thailand,4,81,152,5774,22,12.99,152,81,285.78000000000003,285.78000000000003,0,Horrible streaming quality
+276,South Korea,1,72,17,1930,34,15.99,17,72,543.66,543.66,0,Great content and quality!
+277,Thailand,3,21,133,9679,30,15.99,133,21,479.7,479.7,0,Good for families
+278,Japan,1,18,148,7010,25,12.99,148,18,324.75,324.75,0,Great content and quality!
+279,Japan,2,94,277,7099,28,12.99,277,94,363.72,363.72,0,Horrible streaming quality
+280,India,3,64,232,9621,1,8.99,232,64,8.99,8.99,0,Too expensive
+281,Thailand,2,82,314,3445,4,8.99,314,82,35.96,35.96,1,I love the UI
+282,Malaysia,3,95,228,472,7,15.99,228,95,111.93,111.93,0,Too expensive
+283,Singapore,5,38,139,6248,9,15.99,139,38,143.91,143.91,0,Good for families
+284,South Korea,4,32,211,4682,19,8.99,211,32,170.81,170.81,0,Limited Asian shows
+285,Indonesia,5,11,28,7969,1,8.99,28,11,8.99,8.99,0,I love the UI
+286,Malaysia,2,45,51,7863,10,12.99,51,45,129.9,129.9,1,Too expensive
+287,Malaysia,4,89,261,9400,9,8.99,261,89,80.91,80.91,0,I love the UI
+288,Japan,3,33,261,7627,32,8.99,261,33,287.68,287.68,1,Limited Asian shows
+289,Thailand,4,41,350,4488,32,15.99,350,41,511.68,511.68,0,Great content and quality!
+290,India,1,8,352,6621,6,8.99,352,8,53.94,53.94,1,Horrible streaming quality
+291,India,4,11,8,9479,17,15.99,8,11,271.83,271.83,0,Too expensive
+292,South Korea,1,86,320,2339,10,8.99,320,86,89.9,89.9,0,Good for families
+293,Japan,4,51,138,6298,27,12.99,138,51,350.73,350.73,0,Great content and quality!
+294,Malaysia,1,88,38,940,35,8.99,38,88,314.65000000000003,314.65000000000003,0,Too expensive
+295,Singapore,2,41,111,4370,21,8.99,111,41,188.79,188.79,0,Great content and quality!
+296,Japan,5,17,220,4039,25,8.99,220,17,224.75,224.75,0,Good for families
+297,South Korea,3,76,337,6658,28,15.99,337,76,447.72,447.72,0,Too expensive
+298,South Korea,4,46,223,2199,15,12.99,223,46,194.85,194.85,0,Limited Asian shows
+299,Japan,5,32,136,2202,4,8.99,136,32,35.96,35.96,0,Limited Asian shows
+300,South Korea,3,79,256,5698,29,15.99,256,79,463.71,463.71,1,Good for families
+301,Japan,3,80,360,6343,9,12.99,360,80,116.91,116.91,0,I love the UI
+302,Indonesia,1,54,329,8345,27,15.99,329,54,431.73,431.73,0,Good for families
+303,Japan,2,86,49,8066,26,15.99,49,86,415.74,415.74,0,I love the UI
+304,Thailand,2,92,292,6819,19,12.99,292,92,246.81,246.81,1,Too expensive
+305,Japan,5,20,324,815,28,8.99,324,20,251.72,251.72,0,I love the UI
+306,South Korea,2,33,78,6169,17,15.99,78,33,271.83,271.83,0,Too expensive
+307,Thailand,4,74,105,6374,20,15.99,105,74,319.8,319.8,1,Too expensive
+308,South Korea,2,40,169,2446,23,8.99,169,40,206.77,206.77,0,Horrible streaming quality
+309,India,5,32,217,9018,32,8.99,217,32,287.68,287.68,0,Too expensive
+310,India,2,97,119,4184,33,12.99,119,97,428.67,428.67,0,I love the UI
+311,Thailand,4,2,190,5649,5,12.99,190,2,64.95,64.95,0,Horrible streaming quality
+312,Indonesia,1,97,255,1966,34,12.99,255,97,441.66,441.66,0,Horrible streaming quality
+313,India,5,33,266,3837,11,8.99,266,33,98.89,98.89,0,Too expensive
+314,Japan,1,77,149,7181,3,15.99,149,77,47.97,47.97,0,Good for families
+315,South Korea,1,30,164,9523,33,15.99,164,30,527.67,527.67,1,Good for families
+316,India,1,33,140,3266,11,12.99,140,33,142.89000000000001,142.89000000000001,0,Limited Asian shows
+317,India,3,77,347,2382,16,8.99,347,77,143.84,143.84,0,Horrible streaming quality
+318,Indonesia,3,26,258,1962,18,15.99,258,26,287.82,287.82,0,Too expensive
+319,Thailand,1,22,269,8586,30,12.99,269,22,389.7,389.7,0,Good for families
+320,Thailand,5,66,181,4946,10,15.99,181,66,159.9,159.9,0,Too expensive
+321,Malaysia,4,38,160,5528,18,15.99,160,38,287.82,287.82,0,Too expensive
+322,Indonesia,4,90,351,976,19,8.99,351,90,170.81,170.81,1,Horrible streaming quality
+323,Japan,2,46,288,9599,13,8.99,288,46,116.87,116.87,1,Limited Asian shows
+324,Thailand,5,15,288,1469,3,15.99,288,15,47.97,47.97,0,Horrible streaming quality
+325,South Korea,3,98,226,7760,10,12.99,226,98,129.9,129.9,0,Great content and quality!
+326,Indonesia,1,44,11,4887,1,8.99,11,44,8.99,8.99,0,Good for families
+327,India,2,49,10,370,27,15.99,10,49,431.73,431.73,0,Good for families
+328,South Korea,4,75,271,412,8,8.99,271,75,71.92,71.92,0,Good for families
+329,South Korea,3,61,273,9778,17,8.99,273,61,152.83,152.83,0,I love the UI
+330,India,3,67,183,8521,9,8.99,183,67,80.91,80.91,0,Too expensive
+331,Indonesia,1,6,153,168,6,15.99,153,6,95.94,95.94,1,Horrible streaming quality
+332,India,4,9,315,388,25,12.99,315,9,324.75,324.75,1,Good for families
+333,Malaysia,5,6,334,4961,28,12.99,334,6,363.72,363.72,0,Great content and quality!
+334,South Korea,3,73,124,9744,33,12.99,124,73,428.67,428.67,0,Good for families
+335,Singapore,1,95,114,3486,9,8.99,114,95,80.91,80.91,0,Limited Asian shows
+336,Singapore,5,32,278,1657,18,15.99,278,32,287.82,287.82,0,Too expensive
+337,Japan,4,41,213,9525,21,8.99,213,41,188.79,188.79,0,Too expensive
+338,Thailand,3,76,172,6656,2,12.99,172,76,25.98,25.98,0,Horrible streaming quality
+339,India,5,8,288,5034,15,12.99,288,8,194.85,194.85,0,I love the UI
+340,India,5,72,174,9356,28,15.99,174,72,447.72,447.72,0,Horrible streaming quality
+341,Japan,5,50,113,6682,18,8.99,113,50,161.82,161.82,0,Good for families
+342,Japan,3,92,122,6446,34,12.99,122,92,441.66,441.66,0,Limited Asian shows
+343,Japan,3,62,32,3200,22,15.99,32,62,351.78000000000003,351.78000000000003,0,Great content and quality!
+344,South Korea,2,84,222,3865,11,8.99,222,84,98.89,98.89,1,Horrible streaming quality
+345,Malaysia,4,62,119,8047,13,8.99,119,62,116.87,116.87,0,I love the UI
+346,India,1,7,39,2181,4,12.99,39,7,51.96,51.96,0,Horrible streaming quality
+347,South Korea,5,75,268,9459,22,12.99,268,75,285.78000000000003,285.78000000000003,0,Too expensive
+348,Japan,2,84,233,6935,7,8.99,233,84,62.93,62.93,0,Good for families
+349,India,1,80,18,2864,24,8.99,18,80,215.76,215.76,0,Good for families
+350,South Korea,2,4,149,9220,4,12.99,149,4,51.96,51.96,0,Good for families
+351,Malaysia,3,6,149,2597,28,8.99,149,6,251.72,251.72,0,Good for families
+352,South Korea,5,58,126,1337,15,12.99,126,58,194.85,194.85,1,Good for families
+353,Malaysia,1,22,302,8878,1,8.99,302,22,8.99,8.99,0,Good for families
+354,Japan,1,26,360,2690,3,12.99,360,26,38.97,38.97,0,Great content and quality!
+355,Malaysia,1,3,238,3760,14,15.99,238,3,223.86,223.86,0,I love the UI
+356,India,1,41,135,6237,1,12.99,135,41,12.99,12.99,0,Good for families
+357,Japan,1,60,151,3192,21,12.99,151,60,272.79,272.79,0,I love the UI
+358,India,2,14,236,1170,29,15.99,236,14,463.71,463.71,0,Limited Asian shows
+359,Singapore,5,75,224,8488,5,8.99,224,75,44.95,44.95,0,Good for families
+360,Indonesia,3,82,203,1738,10,15.99,203,82,159.9,159.9,0,Horrible streaming quality
+361,Malaysia,3,12,256,3660,28,12.99,256,12,363.72,363.72,0,Good for families
+362,Indonesia,3,87,86,3241,21,8.99,86,87,188.79,188.79,0,Too expensive
+363,Indonesia,3,12,150,6568,7,15.99,150,12,111.93,111.93,0,Great content and quality!
+364,Malaysia,2,13,235,9732,3,8.99,235,13,26.97,26.97,0,Horrible streaming quality
+365,Japan,4,25,345,505,20,8.99,345,25,179.8,179.8,1,Horrible streaming quality
+366,Singapore,5,45,22,7714,19,15.99,22,45,303.81,303.81,0,Too expensive
+367,India,1,19,348,9198,35,8.99,348,19,314.65000000000003,314.65000000000003,0,Good for families
+368,South Korea,4,55,285,1237,4,15.99,285,55,63.96,63.96,0,Great content and quality!
+369,India,3,45,269,1990,5,12.99,269,45,64.95,64.95,0,Horrible streaming quality
+370,South Korea,4,8,258,587,1,8.99,258,8,8.99,8.99,0,Great content and quality!
+371,India,5,93,29,912,4,12.99,29,93,51.96,51.96,1,Horrible streaming quality
+372,Malaysia,1,53,213,4791,12,12.99,213,53,155.88,155.88,0,Good for families
+373,Singapore,1,55,283,5897,27,8.99,283,55,242.73000000000002,242.73000000000002,0,Limited Asian shows
+374,South Korea,5,32,50,6993,23,15.99,50,32,367.77,367.77,0,Horrible streaming quality
+375,Thailand,5,51,95,7196,25,8.99,95,51,224.75,224.75,0,Limited Asian shows
+376,Japan,3,44,88,7959,21,12.99,88,44,272.79,272.79,0,Horrible streaming quality
+377,India,1,82,44,5377,24,12.99,44,82,311.76,311.76,0,I love the UI
+378,India,4,70,278,7299,25,15.99,278,70,399.75,399.75,0,Good for families
+379,South Korea,2,18,171,9832,32,8.99,171,18,287.68,287.68,0,Too expensive
+380,Japan,2,83,189,8155,32,12.99,189,83,415.68,415.68,0,Limited Asian shows
+381,Japan,5,22,353,2484,5,12.99,353,22,64.95,64.95,0,Too expensive
+382,Malaysia,3,37,184,4524,16,12.99,184,37,207.84,207.84,0,Good for families
+383,Thailand,2,96,3,1976,33,15.99,3,96,527.67,527.67,0,Too expensive
+384,Malaysia,1,56,191,2838,21,12.99,191,56,272.79,272.79,0,Good for families
+385,Malaysia,5,59,118,6672,9,12.99,118,59,116.91,116.91,0,Too expensive
+386,Malaysia,4,3,19,3855,6,8.99,19,3,53.94,53.94,0,Limited Asian shows
+387,Malaysia,5,28,23,3566,35,8.99,23,28,314.65000000000003,314.65000000000003,0,I love the UI
+388,Malaysia,4,74,30,6098,22,12.99,30,74,285.78000000000003,285.78000000000003,0,Too expensive
+389,Singapore,5,35,295,3832,5,12.99,295,35,64.95,64.95,0,Limited Asian shows
+390,Japan,5,61,108,4729,23,8.99,108,61,206.77,206.77,0,Horrible streaming quality
+391,Malaysia,5,93,281,2000,17,15.99,281,93,271.83,271.83,1,Good for families
+392,Japan,4,54,128,5836,12,15.99,128,54,191.88,191.88,0,Great content and quality!
+393,Japan,4,63,229,6172,23,15.99,229,63,367.77,367.77,0,Great content and quality!
+394,Indonesia,5,79,111,2849,16,15.99,111,79,255.84,255.84,0,Good for families
+395,Singapore,2,97,136,9124,3,15.99,136,97,47.97,47.97,0,I love the UI
+396,Malaysia,3,7,362,394,30,15.99,362,7,479.7,479.7,0,Too expensive
+397,India,3,76,186,4288,22,15.99,186,76,351.78000000000003,351.78000000000003,0,I love the UI
+398,South Korea,3,49,144,3149,9,15.99,144,49,143.91,143.91,1,Great content and quality!
+399,Thailand,4,94,72,1893,29,8.99,72,94,260.71,260.71,0,Limited Asian shows
+400,India,4,85,129,145,23,15.99,129,85,367.77,367.77,0,Good for families
+401,Singapore,2,31,364,7114,13,15.99,364,31,207.87,207.87,0,Good for families
+402,South Korea,3,58,261,8046,32,15.99,261,58,511.68,511.68,0,I love the UI
+403,Singapore,3,61,3,2414,23,12.99,3,61,298.77,298.77,0,Limited Asian shows
+404,Japan,5,24,104,3965,17,8.99,104,24,152.83,152.83,1,I love the UI
+405,South Korea,4,20,224,7772,21,8.99,224,20,188.79,188.79,0,Too expensive
+406,Japan,3,37,320,5472,2,8.99,320,37,17.98,17.98,0,Horrible streaming quality
+407,India,2,4,362,2520,6,15.99,362,4,95.94,95.94,1,Limited Asian shows
+408,India,2,92,354,7010,18,15.99,354,92,287.82,287.82,0,Horrible streaming quality
+409,South Korea,3,20,10,9164,30,12.99,10,20,389.7,389.7,0,Too expensive
+410,South Korea,4,60,302,7691,22,8.99,302,60,197.78,197.78,0,Horrible streaming quality
+411,Malaysia,2,24,231,1754,33,15.99,231,24,527.67,527.67,0,Great content and quality!
+412,Singapore,5,50,219,8212,30,8.99,219,50,269.7,269.7,0,Horrible streaming quality
+413,Malaysia,2,49,66,2797,17,12.99,66,49,220.83,220.83,0,Too expensive
+414,Singapore,1,51,112,1167,32,12.99,112,51,415.68,415.68,1,Horrible streaming quality
+415,Malaysia,1,96,13,4147,14,12.99,13,96,181.86,181.86,0,Good for families
+416,Japan,4,36,86,3450,10,8.99,86,36,89.9,89.9,0,I love the UI
+417,South Korea,3,98,234,5875,34,15.99,234,98,543.66,543.66,0,Great content and quality!
+418,India,4,66,90,4808,9,15.99,90,66,143.91,143.91,0,Good for families
+419,Singapore,4,79,314,3936,28,12.99,314,79,363.72,363.72,0,Good for families
+420,Singapore,4,34,54,3667,11,15.99,54,34,175.89000000000001,175.89000000000001,0,Too expensive
+421,India,4,36,12,2983,14,12.99,12,36,181.86,181.86,0,I love the UI
+422,Malaysia,5,6,209,5959,19,8.99,209,6,170.81,170.81,1,I love the UI
+423,Singapore,5,39,14,306,15,12.99,14,39,194.85,194.85,1,Limited Asian shows
+424,Thailand,2,42,121,2029,28,8.99,121,42,251.72,251.72,1,Great content and quality!
+425,Japan,1,58,20,1257,24,12.99,20,58,311.76,311.76,0,Too expensive
+426,South Korea,4,12,75,6367,8,15.99,75,12,127.92,127.92,0,Great content and quality!
+427,India,2,3,243,3765,9,15.99,243,3,143.91,143.91,0,Limited Asian shows
+428,South Korea,1,18,223,725,33,12.99,223,18,428.67,428.67,0,Horrible streaming quality
+429,Thailand,3,40,70,9531,33,15.99,70,40,527.67,527.67,0,Good for families
+430,Singapore,5,21,312,4182,19,15.99,312,21,303.81,303.81,0,Great content and quality!
+431,Singapore,1,15,211,7931,3,15.99,211,15,47.97,47.97,0,Good for families
+432,Thailand,3,97,101,7500,10,8.99,101,97,89.9,89.9,0,Too expensive
+433,India,1,99,186,7567,1,15.99,186,99,15.99,15.99,0,Horrible streaming quality
+434,Japan,5,26,132,2871,29,8.99,132,26,260.71,260.71,1,Too expensive
+435,Indonesia,5,8,111,4238,34,12.99,111,8,441.66,441.66,0,Horrible streaming quality
+436,India,2,94,132,8763,13,15.99,132,94,207.87,207.87,0,Horrible streaming quality
+437,Indonesia,4,87,20,1118,1,15.99,20,87,15.99,15.99,0,Good for families
+438,Thailand,1,42,24,3393,34,15.99,24,42,543.66,543.66,0,Too expensive
+439,Malaysia,1,44,227,54,29,12.99,227,44,376.71,376.71,1,Too expensive
+440,Indonesia,3,14,154,9794,13,8.99,154,14,116.87,116.87,0,Great content and quality!
+441,Japan,5,78,293,6174,29,8.99,293,78,260.71,260.71,0,Too expensive
+442,Malaysia,1,2,230,5698,24,15.99,230,2,383.76,383.76,0,Great content and quality!
+443,Indonesia,5,37,310,4266,26,12.99,310,37,337.74,337.74,1,I love the UI
+444,Thailand,1,69,359,9989,17,12.99,359,69,220.83,220.83,0,I love the UI
+445,Malaysia,2,38,202,8098,7,12.99,202,38,90.93,90.93,1,I love the UI
+446,Thailand,4,41,38,2265,13,12.99,38,41,168.87,168.87,0,Limited Asian shows
+447,Indonesia,1,62,260,7325,5,12.99,260,62,64.95,64.95,0,Too expensive
+448,Thailand,5,60,188,8422,26,8.99,188,60,233.74,233.74,0,Limited Asian shows
+449,Japan,2,14,57,8478,3,8.99,57,14,26.97,26.97,1,Too expensive
+450,Indonesia,1,89,20,3777,7,8.99,20,89,62.93,62.93,0,Great content and quality!
+451,Indonesia,3,84,273,3205,1,15.99,273,84,15.99,15.99,0,Limited Asian shows
+452,Indonesia,4,2,119,4927,17,12.99,119,2,220.83,220.83,0,Limited Asian shows
+453,India,1,70,71,5067,25,15.99,71,70,399.75,399.75,0,Limited Asian shows
+454,India,2,17,4,7457,3,12.99,4,17,38.97,38.97,0,Horrible streaming quality
+455,India,3,89,221,8635,15,8.99,221,89,134.85,134.85,1,Great content and quality!
+456,Japan,2,28,14,2044,29,15.99,14,28,463.71,463.71,0,I love the UI
+457,Malaysia,2,66,3,1411,32,8.99,3,66,287.68,287.68,0,Great content and quality!
+458,Thailand,3,35,216,1128,26,12.99,216,35,337.74,337.74,0,Horrible streaming quality
+459,Singapore,2,5,229,3456,16,12.99,229,5,207.84,207.84,0,Too expensive
+460,Indonesia,3,65,336,3685,25,12.99,336,65,324.75,324.75,0,Great content and quality!
+461,Thailand,1,40,186,7968,28,8.99,186,40,251.72,251.72,0,Limited Asian shows
+462,Indonesia,3,76,55,9131,9,12.99,55,76,116.91,116.91,0,I love the UI
+463,Japan,3,56,254,217,1,8.99,254,56,8.99,8.99,0,I love the UI
+464,Indonesia,4,36,24,5439,29,15.99,24,36,463.71,463.71,0,Too expensive
+465,India,3,45,162,2122,22,12.99,162,45,285.78000000000003,285.78000000000003,0,Great content and quality!
+466,Singapore,3,23,158,2160,16,12.99,158,23,207.84,207.84,0,Horrible streaming quality
+467,South Korea,1,47,82,5272,7,12.99,82,47,90.93,90.93,1,Too expensive
+468,Indonesia,4,31,159,8579,14,15.99,159,31,223.86,223.86,1,Great content and quality!
+469,Thailand,5,11,188,5677,29,12.99,188,11,376.71,376.71,1,Good for families
+470,India,1,10,60,5215,19,8.99,60,10,170.81,170.81,1,I love the UI
+471,South Korea,1,67,305,5806,19,8.99,305,67,170.81,170.81,0,Horrible streaming quality
+472,Singapore,5,14,319,7943,2,12.99,319,14,25.98,25.98,1,Limited Asian shows
+473,South Korea,3,80,211,7577,15,12.99,211,80,194.85,194.85,0,Horrible streaming quality
+474,India,2,74,152,7853,3,15.99,152,74,47.97,47.97,0,Limited Asian shows
+475,Malaysia,4,93,109,7385,11,15.99,109,93,175.89000000000001,175.89000000000001,0,Horrible streaming quality
+476,Malaysia,2,10,76,6495,30,15.99,76,10,479.7,479.7,0,I love the UI
+477,South Korea,5,76,30,1527,18,12.99,30,76,233.82,233.82,1,Limited Asian shows
+478,Japan,1,94,314,2585,2,15.99,314,94,31.98,31.98,1,Great content and quality!
+479,Thailand,1,1,117,5439,32,15.99,117,1,511.68,511.68,0,Limited Asian shows
+480,Thailand,4,5,356,2981,8,8.99,356,5,71.92,71.92,1,Too expensive
+481,South Korea,1,20,192,1268,22,15.99,192,20,351.78000000000003,351.78000000000003,0,Great content and quality!
+482,Indonesia,1,8,19,9195,6,8.99,19,8,53.94,53.94,0,Too expensive
+483,Indonesia,4,43,173,4757,12,8.99,173,43,107.88,107.88,0,Horrible streaming quality
+484,Thailand,4,76,228,3995,15,15.99,228,76,239.85,239.85,0,Great content and quality!
+485,Thailand,5,1,350,5716,28,8.99,350,1,251.72,251.72,1,Horrible streaming quality
+486,Malaysia,1,57,183,9272,18,12.99,183,57,233.82,233.82,1,Good for families
+487,Japan,1,64,113,3731,2,12.99,113,64,25.98,25.98,1,Horrible streaming quality
+488,India,5,84,183,2810,13,15.99,183,84,207.87,207.87,0,Horrible streaming quality
+489,Indonesia,3,28,146,7428,15,12.99,146,28,194.85,194.85,1,Too expensive
+490,Thailand,3,37,319,1618,20,8.99,319,37,179.8,179.8,0,Limited Asian shows
+491,Malaysia,3,47,116,2398,29,12.99,116,47,376.71,376.71,1,Good for families
+492,Singapore,5,76,113,5819,29,15.99,113,76,463.71,463.71,0,Horrible streaming quality
+493,Malaysia,1,37,251,466,3,15.99,251,37,47.97,47.97,0,Horrible streaming quality
+494,Indonesia,5,49,251,2858,19,8.99,251,49,170.81,170.81,0,Good for families
+495,Indonesia,5,44,303,1586,3,15.99,303,44,47.97,47.97,0,Good for families
+496,Malaysia,3,56,313,7600,14,12.99,313,56,181.86,181.86,0,Great content and quality!
+497,India,2,28,118,7510,4,15.99,118,28,63.96,63.96,0,Too expensive
+498,South Korea,1,79,301,9526,11,8.99,301,79,98.89,98.89,0,Good for families
+499,Indonesia,3,6,161,212,31,15.99,161,6,495.69,495.69,0,Good for families
+500,Malaysia,2,61,198,7220,32,12.99,198,61,415.68,415.68,0,I love the UI
+501,Thailand,2,20,260,6717,27,8.99,260,20,242.73000000000002,242.73000000000002,0,Limited Asian shows
+502,Malaysia,4,78,148,5595,30,12.99,148,78,389.7,389.7,0,Good for families
+503,Japan,1,2,240,7271,2,8.99,240,2,17.98,17.98,0,Too expensive
+504,South Korea,2,73,47,7681,9,15.99,47,73,143.91,143.91,0,Limited Asian shows
+505,Singapore,3,37,198,5605,28,8.99,198,37,251.72,251.72,1,Limited Asian shows
+506,India,4,20,47,1619,31,8.99,47,20,278.69,278.69,1,Horrible streaming quality
+507,Singapore,1,26,78,9809,34,15.99,78,26,543.66,543.66,0,Horrible streaming quality
+508,South Korea,5,29,124,8881,15,12.99,124,29,194.85,194.85,1,Horrible streaming quality
+509,South Korea,3,1,75,189,25,15.99,75,1,399.75,399.75,1,Horrible streaming quality
+510,South Korea,2,35,359,6585,8,8.99,359,35,71.92,71.92,1,I love the UI
+511,Singapore,2,70,137,9233,9,15.99,137,70,143.91,143.91,0,Good for families
+512,Thailand,3,59,90,8274,32,8.99,90,59,287.68,287.68,0,Horrible streaming quality
+513,South Korea,2,69,325,6876,17,15.99,325,69,271.83,271.83,0,Great content and quality!
+514,Malaysia,4,33,61,2337,35,15.99,61,33,559.65,559.65,0,Horrible streaming quality
+515,Singapore,1,51,138,1258,19,12.99,138,51,246.81,246.81,0,Good for families
+516,South Korea,4,78,50,7256,29,8.99,50,78,260.71,260.71,0,Horrible streaming quality
+517,Malaysia,2,12,259,5620,7,12.99,259,12,90.93,90.93,1,I love the UI
+518,Thailand,5,20,107,6949,28,8.99,107,20,251.72,251.72,1,Too expensive
+519,Japan,1,53,113,5615,9,15.99,113,53,143.91,143.91,0,Too expensive
+520,Thailand,1,88,350,9257,28,8.99,350,88,251.72,251.72,0,Good for families
+521,South Korea,3,43,254,6076,6,12.99,254,43,77.94,77.94,0,Too expensive
+522,Singapore,3,98,118,4975,29,12.99,118,98,376.71,376.71,1,Too expensive
+523,Indonesia,5,89,198,7957,17,12.99,198,89,220.83,220.83,0,Great content and quality!
+524,South Korea,1,50,337,7046,16,8.99,337,50,143.84,143.84,0,Good for families
+525,Indonesia,5,29,51,7788,23,12.99,51,29,298.77,298.77,0,Good for families
+526,Malaysia,3,57,245,5116,31,12.99,245,57,402.69,402.69,0,Too expensive
+527,Japan,3,39,35,9486,3,12.99,35,39,38.97,38.97,0,Too expensive
+528,India,1,95,302,7191,21,15.99,302,95,335.79,335.79,0,Too expensive
+529,Thailand,4,56,69,1914,26,15.99,69,56,415.74,415.74,1,Limited Asian shows
+530,Japan,2,43,349,1839,22,8.99,349,43,197.78,197.78,1,I love the UI
+531,South Korea,3,50,320,3197,12,8.99,320,50,107.88,107.88,1,Horrible streaming quality
+532,Indonesia,3,23,49,6382,13,12.99,49,23,168.87,168.87,1,I love the UI
+533,Thailand,4,44,74,9039,11,15.99,74,44,175.89000000000001,175.89000000000001,0,Good for families
+534,Indonesia,4,38,192,6086,16,12.99,192,38,207.84,207.84,0,Great content and quality!
+535,Singapore,5,84,261,2467,8,12.99,261,84,103.92,103.92,0,Horrible streaming quality
+536,Indonesia,5,23,356,6498,2,15.99,356,23,31.98,31.98,1,Great content and quality!
+537,Singapore,2,45,70,9110,30,15.99,70,45,479.7,479.7,0,Limited Asian shows
+538,Malaysia,2,52,90,5981,30,15.99,90,52,479.7,479.7,0,Good for families
+539,Thailand,1,80,260,5306,12,8.99,260,80,107.88,107.88,0,Limited Asian shows
+540,Thailand,5,50,126,8889,10,8.99,126,50,89.9,89.9,0,Good for families
+541,India,3,8,231,7848,11,12.99,231,8,142.89000000000001,142.89000000000001,0,Great content and quality!
+542,South Korea,5,85,295,4758,15,8.99,295,85,134.85,134.85,0,Great content and quality!
+543,Singapore,3,1,129,2654,16,15.99,129,1,255.84,255.84,0,Great content and quality!
+544,India,4,8,280,5768,17,15.99,280,8,271.83,271.83,0,Good for families
+545,Indonesia,5,29,313,4262,26,8.99,313,29,233.74,233.74,1,Too expensive
+546,Indonesia,4,96,100,5823,2,12.99,100,96,25.98,25.98,0,Great content and quality!
+547,India,2,5,326,4553,12,12.99,326,5,155.88,155.88,0,Limited Asian shows
+548,Thailand,2,86,297,5601,26,8.99,297,86,233.74,233.74,0,Horrible streaming quality
+549,Indonesia,1,47,182,9040,23,12.99,182,47,298.77,298.77,1,Good for families
+550,Malaysia,5,34,174,9328,18,12.99,174,34,233.82,233.82,0,Limited Asian shows
+551,Malaysia,4,65,316,2254,32,12.99,316,65,415.68,415.68,1,I love the UI
+552,India,3,55,364,8419,3,15.99,364,55,47.97,47.97,0,I love the UI
+553,Singapore,2,90,188,6121,3,15.99,188,90,47.97,47.97,1,Horrible streaming quality
+554,Singapore,2,43,57,8692,30,8.99,57,43,269.7,269.7,1,Too expensive
+555,India,3,74,31,6391,1,15.99,31,74,15.99,15.99,0,Great content and quality!
+556,Singapore,4,30,84,1978,30,12.99,84,30,389.7,389.7,0,Good for families
+557,Thailand,4,82,152,7124,32,15.99,152,82,511.68,511.68,0,Limited Asian shows
+558,Thailand,5,17,36,6348,28,8.99,36,17,251.72,251.72,0,Great content and quality!
+559,Singapore,5,26,213,3826,21,15.99,213,26,335.79,335.79,0,Limited Asian shows
+560,Malaysia,1,8,364,264,13,12.99,364,8,168.87,168.87,0,Good for families
+561,Singapore,2,47,106,9150,27,12.99,106,47,350.73,350.73,0,I love the UI
+562,Thailand,5,76,342,3637,7,8.99,342,76,62.93,62.93,0,Great content and quality!
+563,Japan,4,91,220,8073,22,15.99,220,91,351.78000000000003,351.78000000000003,0,Horrible streaming quality
+564,South Korea,3,72,163,552,10,15.99,163,72,159.9,159.9,0,Too expensive
+565,Indonesia,4,89,220,5934,15,15.99,220,89,239.85,239.85,0,Horrible streaming quality
+566,Japan,2,46,270,4918,15,12.99,270,46,194.85,194.85,0,Too expensive
+567,Singapore,4,68,120,9851,4,8.99,120,68,35.96,35.96,0,Limited Asian shows
+568,Malaysia,1,33,336,5862,32,15.99,336,33,511.68,511.68,0,Great content and quality!
+569,India,2,1,182,7152,23,12.99,182,1,298.77,298.77,1,Great content and quality!
+570,Singapore,3,19,106,5872,6,12.99,106,19,77.94,77.94,0,Too expensive
+571,Malaysia,1,31,217,1346,24,12.99,217,31,311.76,311.76,0,I love the UI
+572,South Korea,2,80,205,1154,20,15.99,205,80,319.8,319.8,0,Good for families
+573,Singapore,3,14,70,5651,20,15.99,70,14,319.8,319.8,1,Horrible streaming quality
+574,Thailand,1,53,44,5453,12,15.99,44,53,191.88,191.88,1,Limited Asian shows
+575,India,1,48,329,2617,33,15.99,329,48,527.67,527.67,1,Horrible streaming quality
+576,Malaysia,2,69,301,9245,28,15.99,301,69,447.72,447.72,0,Horrible streaming quality
+577,Malaysia,5,90,228,5702,8,15.99,228,90,127.92,127.92,0,Limited Asian shows
+578,Malaysia,1,62,184,1408,1,15.99,184,62,15.99,15.99,0,Limited Asian shows
+579,South Korea,1,92,107,3404,22,15.99,107,92,351.78000000000003,351.78000000000003,0,Great content and quality!
+580,Singapore,3,66,84,1549,6,15.99,84,66,95.94,95.94,1,Horrible streaming quality
+581,South Korea,4,64,338,5807,21,12.99,338,64,272.79,272.79,0,Good for families
+582,Indonesia,2,70,250,7965,32,15.99,250,70,511.68,511.68,0,Good for families
+583,Indonesia,2,63,363,6123,35,8.99,363,63,314.65000000000003,314.65000000000003,0,Too expensive
+584,Singapore,5,73,21,8448,15,12.99,21,73,194.85,194.85,1,Limited Asian shows
+585,Thailand,5,33,196,5385,5,15.99,196,33,79.95,79.95,0,Great content and quality!
+586,South Korea,2,41,178,4998,6,8.99,178,41,53.94,53.94,0,Good for families
+587,India,5,89,7,9113,25,15.99,7,89,399.75,399.75,0,I love the UI
+588,Malaysia,3,48,70,5604,29,8.99,70,48,260.71,260.71,0,Great content and quality!
+589,Malaysia,2,13,127,4102,7,8.99,127,13,62.93,62.93,0,Great content and quality!
+590,Singapore,5,73,160,2287,13,8.99,160,73,116.87,116.87,1,Good for families
+591,Thailand,2,77,248,8618,18,8.99,248,77,161.82,161.82,0,I love the UI
+592,Indonesia,4,31,203,4454,2,12.99,203,31,25.98,25.98,0,Too expensive
+593,Indonesia,1,75,148,3267,8,12.99,148,75,103.92,103.92,0,Good for families
+594,Malaysia,2,68,143,3923,11,8.99,143,68,98.89,98.89,0,I love the UI
+595,Singapore,1,98,199,2035,33,15.99,199,98,527.67,527.67,1,Great content and quality!
+596,South Korea,5,4,154,2046,27,8.99,154,4,242.73000000000002,242.73000000000002,1,I love the UI
+597,Indonesia,1,19,142,9418,20,12.99,142,19,259.8,259.8,0,Great content and quality!
+598,South Korea,2,70,313,1802,12,15.99,313,70,191.88,191.88,1,Good for families
+599,Thailand,4,98,165,8383,31,12.99,165,98,402.69,402.69,0,Limited Asian shows
+600,Indonesia,5,82,314,4006,27,12.99,314,82,350.73,350.73,0,Good for families
+601,Indonesia,2,13,21,1781,32,15.99,21,13,511.68,511.68,0,Horrible streaming quality
+602,Japan,5,23,82,8997,10,8.99,82,23,89.9,89.9,0,Horrible streaming quality
+603,Indonesia,3,83,69,7460,3,8.99,69,83,26.97,26.97,0,Horrible streaming quality
+604,India,1,75,131,7200,27,8.99,131,75,242.73000000000002,242.73000000000002,0,Good for families
+605,Singapore,3,1,87,6499,35,8.99,87,1,314.65000000000003,314.65000000000003,0,Too expensive
+606,Singapore,2,88,218,9161,31,15.99,218,88,495.69,495.69,0,Good for families
+607,South Korea,4,54,305,3250,15,15.99,305,54,239.85,239.85,0,Limited Asian shows
+608,Thailand,5,71,345,569,16,15.99,345,71,255.84,255.84,0,I love the UI
+609,Indonesia,1,89,341,1491,13,12.99,341,89,168.87,168.87,1,Good for families
+610,India,5,85,161,5214,35,15.99,161,85,559.65,559.65,0,Good for families
+611,South Korea,2,15,178,8577,11,8.99,178,15,98.89,98.89,0,Great content and quality!
+612,Japan,5,65,117,264,21,12.99,117,65,272.79,272.79,1,Great content and quality!
+613,South Korea,1,76,196,1578,11,8.99,196,76,98.89,98.89,0,Great content and quality!
+614,South Korea,2,71,327,7510,30,8.99,327,71,269.7,269.7,0,Good for families
+615,Indonesia,5,15,86,4243,35,15.99,86,15,559.65,559.65,0,Too expensive
+616,Japan,4,21,289,1703,22,15.99,289,21,351.78000000000003,351.78000000000003,0,I love the UI
+617,South Korea,2,19,81,6738,31,8.99,81,19,278.69,278.69,0,I love the UI
+618,India,2,60,152,8012,14,8.99,152,60,125.86,125.86,0,Limited Asian shows
+619,India,4,93,61,2130,24,12.99,61,93,311.76,311.76,1,Too expensive
+620,Singapore,3,89,61,3778,32,15.99,61,89,511.68,511.68,1,Too expensive
+621,Japan,1,33,354,3203,32,12.99,354,33,415.68,415.68,1,I love the UI
+622,Japan,3,49,28,1845,15,12.99,28,49,194.85,194.85,0,Horrible streaming quality
+623,Singapore,5,96,43,3871,35,12.99,43,96,454.65000000000003,454.65000000000003,0,Great content and quality!
+624,South Korea,4,35,169,8046,3,8.99,169,35,26.97,26.97,0,Great content and quality!
+625,Japan,3,44,86,7041,16,12.99,86,44,207.84,207.84,0,I love the UI
+626,India,2,90,177,4523,5,12.99,177,90,64.95,64.95,1,Too expensive
+627,India,5,11,17,704,21,8.99,17,11,188.79,188.79,0,Limited Asian shows
+628,Indonesia,5,99,98,8118,10,15.99,98,99,159.9,159.9,0,Horrible streaming quality
+629,Japan,3,72,198,8608,19,15.99,198,72,303.81,303.81,0,I love the UI
+630,South Korea,3,78,98,2188,25,12.99,98,78,324.75,324.75,1,Great content and quality!
+631,Singapore,4,74,65,2691,4,8.99,65,74,35.96,35.96,1,Good for families
+632,Singapore,1,66,330,2094,29,15.99,330,66,463.71,463.71,0,Too expensive
+633,South Korea,3,46,341,3283,19,12.99,341,46,246.81,246.81,1,Good for families
+634,Thailand,3,9,5,5009,2,12.99,5,9,25.98,25.98,0,Limited Asian shows
+635,Malaysia,2,3,2,7733,10,8.99,2,3,89.9,89.9,0,I love the UI
+636,Indonesia,5,85,22,8961,25,12.99,22,85,324.75,324.75,1,Great content and quality!
+637,Singapore,1,26,112,1431,20,15.99,112,26,319.8,319.8,0,Horrible streaming quality
+638,Japan,2,72,57,3289,19,8.99,57,72,170.81,170.81,1,Good for families
+639,Indonesia,4,48,66,3953,23,15.99,66,48,367.77,367.77,0,Horrible streaming quality
+640,Japan,4,66,330,4244,24,15.99,330,66,383.76,383.76,0,Limited Asian shows
+641,Thailand,3,70,98,3257,11,15.99,98,70,175.89000000000001,175.89000000000001,1,Great content and quality!
+642,India,3,28,144,2775,34,12.99,144,28,441.66,441.66,0,Good for families
+643,Indonesia,4,93,125,6121,28,12.99,125,93,363.72,363.72,1,Limited Asian shows
+644,Singapore,3,26,167,3896,5,15.99,167,26,79.95,79.95,1,Horrible streaming quality
+645,Indonesia,1,25,86,5848,5,15.99,86,25,79.95,79.95,0,Horrible streaming quality
+646,Indonesia,3,12,76,2252,21,8.99,76,12,188.79,188.79,0,Good for families
+647,Indonesia,5,5,344,2822,12,8.99,344,5,107.88,107.88,0,Great content and quality!
+648,Malaysia,3,98,294,9919,4,12.99,294,98,51.96,51.96,0,Horrible streaming quality
+649,Indonesia,2,48,59,4093,20,12.99,59,48,259.8,259.8,0,I love the UI
+650,Japan,1,37,138,1554,25,8.99,138,37,224.75,224.75,0,Limited Asian shows
+651,India,2,79,99,8254,14,15.99,99,79,223.86,223.86,0,Good for families
+652,Thailand,2,44,192,6228,11,12.99,192,44,142.89000000000001,142.89000000000001,0,Too expensive
+653,South Korea,5,15,243,4055,32,15.99,243,15,511.68,511.68,1,Too expensive
+654,Indonesia,1,43,319,2596,11,8.99,319,43,98.89,98.89,1,Great content and quality!
+655,Singapore,1,48,49,2833,18,12.99,49,48,233.82,233.82,0,I love the UI
+656,Indonesia,1,87,32,3739,27,12.99,32,87,350.73,350.73,0,Horrible streaming quality
+657,Singapore,1,70,277,6185,18,8.99,277,70,161.82,161.82,1,Too expensive
+658,Japan,1,46,20,749,23,12.99,20,46,298.77,298.77,0,Great content and quality!
+659,Singapore,5,43,154,6546,11,8.99,154,43,98.89,98.89,0,Limited Asian shows
+660,South Korea,3,21,68,4609,21,12.99,68,21,272.79,272.79,1,I love the UI
+661,India,2,23,214,1002,5,8.99,214,23,44.95,44.95,0,I love the UI
+662,Singapore,1,80,143,3748,23,12.99,143,80,298.77,298.77,0,Great content and quality!
+663,Singapore,3,47,232,7425,25,15.99,232,47,399.75,399.75,1,Great content and quality!
+664,India,3,15,213,4432,10,15.99,213,15,159.9,159.9,1,Horrible streaming quality
+665,South Korea,2,25,79,4582,22,15.99,79,25,351.78000000000003,351.78000000000003,0,Great content and quality!
+666,Indonesia,5,36,214,2237,19,12.99,214,36,246.81,246.81,0,Horrible streaming quality
+667,Singapore,4,75,116,4456,1,12.99,116,75,12.99,12.99,0,Horrible streaming quality
+668,India,4,51,92,6949,7,15.99,92,51,111.93,111.93,0,Good for families
+669,Japan,3,15,270,8865,4,15.99,270,15,63.96,63.96,1,I love the UI
+670,India,2,68,168,8416,1,8.99,168,68,8.99,8.99,0,Limited Asian shows
+671,Japan,4,21,58,8710,15,8.99,58,21,134.85,134.85,1,I love the UI
+672,South Korea,3,13,284,2234,12,8.99,284,13,107.88,107.88,0,I love the UI
+673,Indonesia,5,86,26,5375,22,15.99,26,86,351.78000000000003,351.78000000000003,0,Good for families
+674,India,4,19,66,3306,22,15.99,66,19,351.78000000000003,351.78000000000003,0,Horrible streaming quality
+675,Thailand,3,34,248,1132,17,15.99,248,34,271.83,271.83,0,Horrible streaming quality
+676,Thailand,3,78,254,5273,29,8.99,254,78,260.71,260.71,0,Great content and quality!
+677,Malaysia,1,68,44,6644,14,12.99,44,68,181.86,181.86,0,Good for families
+678,Singapore,5,52,97,9463,20,15.99,97,52,319.8,319.8,0,Great content and quality!
+679,South Korea,1,27,42,8737,33,12.99,42,27,428.67,428.67,0,Good for families
+680,India,2,29,227,5253,15,12.99,227,29,194.85,194.85,0,Great content and quality!
+681,Thailand,1,28,262,8614,12,12.99,262,28,155.88,155.88,1,Too expensive
+682,Singapore,1,35,167,660,20,8.99,167,35,179.8,179.8,0,I love the UI
+683,Thailand,4,8,279,9201,30,12.99,279,8,389.7,389.7,0,I love the UI
+684,India,3,16,89,6713,3,15.99,89,16,47.97,47.97,1,Limited Asian shows
+685,Japan,5,36,178,307,28,8.99,178,36,251.72,251.72,1,Horrible streaming quality
+686,India,1,30,197,262,26,15.99,197,30,415.74,415.74,0,Limited Asian shows
+687,Malaysia,5,18,307,9774,30,15.99,307,18,479.7,479.7,0,Too expensive
+688,India,1,2,267,5720,13,8.99,267,2,116.87,116.87,1,Limited Asian shows
+689,India,2,49,268,7689,13,15.99,268,49,207.87,207.87,1,I love the UI
+690,Malaysia,1,77,74,55,2,15.99,74,77,31.98,31.98,1,Horrible streaming quality
+691,South Korea,4,4,8,7498,2,8.99,8,4,17.98,17.98,0,Too expensive
+692,India,3,90,297,6440,26,15.99,297,90,415.74,415.74,0,I love the UI
+693,Malaysia,2,89,164,8682,11,12.99,164,89,142.89000000000001,142.89000000000001,0,Great content and quality!
+694,Singapore,1,94,85,3794,8,15.99,85,94,127.92,127.92,0,Good for families
+695,Japan,5,75,72,6629,22,12.99,72,75,285.78000000000003,285.78000000000003,0,Too expensive
+696,Japan,2,7,55,5132,20,15.99,55,7,319.8,319.8,1,Horrible streaming quality
+697,India,2,95,47,7036,8,8.99,47,95,71.92,71.92,0,Limited Asian shows
+698,South Korea,1,74,238,3513,29,8.99,238,74,260.71,260.71,0,Limited Asian shows
+699,South Korea,2,39,104,2024,26,15.99,104,39,415.74,415.74,0,Too expensive
+700,Singapore,5,13,210,8712,30,8.99,210,13,269.7,269.7,0,Horrible streaming quality
+701,India,2,31,42,1102,17,15.99,42,31,271.83,271.83,0,Too expensive
+702,Japan,5,71,316,6737,20,8.99,316,71,179.8,179.8,1,Horrible streaming quality
+703,South Korea,1,63,268,245,16,12.99,268,63,207.84,207.84,0,Limited Asian shows
+704,India,3,56,263,7635,7,15.99,263,56,111.93,111.93,0,I love the UI
+705,Thailand,2,42,336,9945,16,12.99,336,42,207.84,207.84,1,Great content and quality!
+706,South Korea,3,61,259,9814,27,12.99,259,61,350.73,350.73,0,I love the UI
+707,Malaysia,5,42,283,2636,23,15.99,283,42,367.77,367.77,0,Great content and quality!
+708,Thailand,2,56,114,8380,24,12.99,114,56,311.76,311.76,1,Limited Asian shows
+709,South Korea,4,36,363,4811,9,15.99,363,36,143.91,143.91,0,I love the UI
+710,Japan,3,84,40,3343,35,12.99,40,84,454.65000000000003,454.65000000000003,0,I love the UI
+711,Indonesia,2,68,220,9998,20,15.99,220,68,319.8,319.8,1,Too expensive
+712,Thailand,3,7,129,7793,17,15.99,129,7,271.83,271.83,0,Good for families
+713,Singapore,2,54,8,5969,31,8.99,8,54,278.69,278.69,0,Limited Asian shows
+714,Singapore,1,1,101,2325,8,15.99,101,1,127.92,127.92,0,Horrible streaming quality
+715,Japan,3,44,176,5715,15,15.99,176,44,239.85,239.85,1,Limited Asian shows
+716,South Korea,4,45,107,1726,31,12.99,107,45,402.69,402.69,0,Horrible streaming quality
+717,India,4,47,101,1976,30,15.99,101,47,479.7,479.7,0,Horrible streaming quality
+718,South Korea,5,13,260,2813,20,8.99,260,13,179.8,179.8,0,Great content and quality!
+719,Japan,2,22,246,3674,12,12.99,246,22,155.88,155.88,0,Horrible streaming quality
+720,Singapore,3,21,275,5271,17,12.99,275,21,220.83,220.83,1,Horrible streaming quality
+721,South Korea,5,86,32,6450,30,8.99,32,86,269.7,269.7,0,Too expensive
+722,Singapore,3,92,137,7587,29,12.99,137,92,376.71,376.71,0,I love the UI
+723,Thailand,2,9,12,2675,19,12.99,12,9,246.81,246.81,0,Limited Asian shows
+724,India,4,26,302,6619,11,12.99,302,26,142.89000000000001,142.89000000000001,0,Limited Asian shows
+725,Thailand,1,9,16,6383,34,12.99,16,9,441.66,441.66,0,Horrible streaming quality
+726,Singapore,4,15,129,1962,7,8.99,129,15,62.93,62.93,1,Good for families
+727,Singapore,5,10,63,1787,34,8.99,63,10,305.66,305.66,0,Limited Asian shows
+728,Indonesia,1,88,109,5115,20,12.99,109,88,259.8,259.8,1,Horrible streaming quality
+729,Indonesia,5,42,21,5667,24,12.99,21,42,311.76,311.76,1,Great content and quality!
+730,Thailand,2,72,158,1146,10,8.99,158,72,89.9,89.9,0,Great content and quality!
+731,Malaysia,1,24,269,522,32,8.99,269,24,287.68,287.68,0,Great content and quality!
+732,Thailand,5,80,162,8841,15,8.99,162,80,134.85,134.85,1,Horrible streaming quality
+733,Indonesia,2,49,260,7918,20,12.99,260,49,259.8,259.8,0,Too expensive
+734,Singapore,4,26,102,6504,3,12.99,102,26,38.97,38.97,1,Good for families
+735,Japan,2,91,223,9768,8,15.99,223,91,127.92,127.92,0,Horrible streaming quality
+736,Thailand,3,37,59,4988,23,8.99,59,37,206.77,206.77,0,Too expensive
+737,Singapore,2,68,247,9827,11,12.99,247,68,142.89000000000001,142.89000000000001,0,Too expensive
+738,Japan,2,50,128,9497,8,8.99,128,50,71.92,71.92,0,Limited Asian shows
+739,Japan,3,24,283,2773,29,12.99,283,24,376.71,376.71,1,Horrible streaming quality
+740,Indonesia,5,19,325,7896,30,8.99,325,19,269.7,269.7,0,Horrible streaming quality
+741,Thailand,5,60,25,7190,10,12.99,25,60,129.9,129.9,0,Too expensive
+742,South Korea,2,39,131,5481,28,15.99,131,39,447.72,447.72,1,Too expensive
+743,India,3,74,353,5288,13,15.99,353,74,207.87,207.87,0,Too expensive
+744,Indonesia,3,89,196,8578,32,8.99,196,89,287.68,287.68,0,Limited Asian shows
+745,Indonesia,4,18,281,7216,26,12.99,281,18,337.74,337.74,1,Horrible streaming quality
+746,South Korea,5,19,154,6132,22,12.99,154,19,285.78000000000003,285.78000000000003,0,Too expensive
+747,India,1,36,133,9091,4,8.99,133,36,35.96,35.96,0,Great content and quality!
+748,Singapore,5,74,227,9107,31,12.99,227,74,402.69,402.69,0,Horrible streaming quality
+749,Malaysia,5,97,189,9505,18,8.99,189,97,161.82,161.82,0,Limited Asian shows
+750,Thailand,4,55,265,649,24,12.99,265,55,311.76,311.76,0,Great content and quality!
+751,Malaysia,1,69,134,912,23,8.99,134,69,206.77,206.77,0,I love the UI
+752,Singapore,4,47,211,9018,22,12.99,211,47,285.78000000000003,285.78000000000003,0,Horrible streaming quality
+753,Indonesia,1,49,60,3672,2,8.99,60,49,17.98,17.98,0,I love the UI
+754,India,2,99,364,1326,31,12.99,364,99,402.69,402.69,0,Too expensive
+755,Indonesia,1,98,364,8466,11,15.99,364,98,175.89000000000001,175.89000000000001,0,Limited Asian shows
+756,Japan,4,33,213,2925,28,12.99,213,33,363.72,363.72,0,Too expensive
+757,Indonesia,5,21,216,6623,32,8.99,216,21,287.68,287.68,1,Limited Asian shows
+758,Indonesia,1,81,226,959,5,15.99,226,81,79.95,79.95,0,Good for families
+759,Singapore,1,22,131,5396,10,12.99,131,22,129.9,129.9,0,Too expensive
+760,Singapore,3,48,76,8741,24,15.99,76,48,383.76,383.76,0,I love the UI
+761,Singapore,5,37,286,3242,35,12.99,286,37,454.65000000000003,454.65000000000003,0,Limited Asian shows
+762,Malaysia,2,15,277,2439,23,15.99,277,15,367.77,367.77,0,Too expensive
+763,Japan,4,35,156,8229,17,8.99,156,35,152.83,152.83,0,Horrible streaming quality
+764,Singapore,2,92,248,3453,1,12.99,248,92,12.99,12.99,0,Limited Asian shows
+765,India,5,71,218,7006,31,12.99,218,71,402.69,402.69,0,Limited Asian shows
+766,Malaysia,1,32,190,7624,31,8.99,190,32,278.69,278.69,1,Too expensive
+767,South Korea,1,11,163,5188,34,15.99,163,11,543.66,543.66,0,Good for families
+768,India,5,10,180,3697,9,8.99,180,10,80.91,80.91,0,Too expensive
+769,Thailand,1,73,34,6003,22,8.99,34,73,197.78,197.78,1,I love the UI
+770,Thailand,1,78,41,6266,13,15.99,41,78,207.87,207.87,0,I love the UI
+771,India,1,77,307,8307,25,8.99,307,77,224.75,224.75,0,Limited Asian shows
+772,Singapore,4,57,338,2498,18,12.99,338,57,233.82,233.82,0,Limited Asian shows
+773,South Korea,4,25,314,6247,12,12.99,314,25,155.88,155.88,0,Too expensive
+774,South Korea,3,2,75,3649,17,12.99,75,2,220.83,220.83,0,I love the UI
+775,Malaysia,2,64,279,1666,15,8.99,279,64,134.85,134.85,0,I love the UI
+776,South Korea,5,35,176,8185,15,12.99,176,35,194.85,194.85,0,Good for families
+777,Thailand,5,7,150,3613,15,12.99,150,7,194.85,194.85,0,Horrible streaming quality
+778,Japan,5,85,273,4039,13,12.99,273,85,168.87,168.87,0,Good for families
+779,Singapore,3,18,325,3356,17,12.99,325,18,220.83,220.83,1,Great content and quality!
+780,South Korea,4,67,108,8178,32,12.99,108,67,415.68,415.68,0,Good for families
+781,Malaysia,3,42,139,2247,9,12.99,139,42,116.91,116.91,0,Too expensive
+782,Thailand,5,39,350,4997,20,8.99,350,39,179.8,179.8,0,Horrible streaming quality
+783,Japan,2,41,271,2399,26,12.99,271,41,337.74,337.74,0,Too expensive
+784,Indonesia,1,75,347,3668,27,12.99,347,75,350.73,350.73,1,Great content and quality!
+785,Indonesia,4,24,289,9165,21,15.99,289,24,335.79,335.79,0,Horrible streaming quality
+786,Japan,4,60,212,5752,18,8.99,212,60,161.82,161.82,0,Limited Asian shows
+787,Thailand,3,46,272,4474,13,8.99,272,46,116.87,116.87,0,I love the UI
+788,Malaysia,4,19,66,7648,16,8.99,66,19,143.84,143.84,0,Good for families
+789,Japan,5,68,248,3977,9,8.99,248,68,80.91,80.91,0,Too expensive
+790,Singapore,5,90,156,1706,12,12.99,156,90,155.88,155.88,0,Great content and quality!
+791,Singapore,3,42,47,1226,19,12.99,47,42,246.81,246.81,0,I love the UI
+792,Indonesia,5,32,201,2817,7,15.99,201,32,111.93,111.93,0,Good for families
+793,South Korea,2,39,148,7462,35,15.99,148,39,559.65,559.65,0,I love the UI
+794,Malaysia,3,36,124,9683,18,8.99,124,36,161.82,161.82,1,Good for families
+795,Indonesia,2,97,1,7957,16,15.99,1,97,255.84,255.84,0,Limited Asian shows
+796,South Korea,1,36,247,3348,4,15.99,247,36,63.96,63.96,0,Horrible streaming quality
+797,South Korea,2,3,343,8888,25,8.99,343,3,224.75,224.75,0,I love the UI
+798,Singapore,1,73,128,6719,32,8.99,128,73,287.68,287.68,0,I love the UI
+799,Thailand,1,8,191,2206,13,15.99,191,8,207.87,207.87,0,I love the UI
+800,India,2,97,67,3773,17,12.99,67,97,220.83,220.83,1,Horrible streaming quality
